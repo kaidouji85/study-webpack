@@ -1,8 +1,10 @@
+var createDebugEntry = require("./create-debug-entry");
+
 module.exports = {
-    entry: "./src/entry.js",
+    entry: createDebugEntry('src_debug'),
     output: {
-        path: './build',
-        filename: 'bundle.js'
+        path: './debug',
+        filename: '[name].js'
     },
     devtool: 'inline-source-map',
     module: {
