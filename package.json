@@ -1,0 +1,16 @@
+{
+  "name": "study-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "dependencies": {
+    "css-loader": "^0.19.0",
+    "style-loader": "^0.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors"
+  },
+  "author": "",
+  "license": "ISC"
+}
